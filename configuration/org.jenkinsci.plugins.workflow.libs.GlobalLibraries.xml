@@ -1,0 +1,22 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.libs.GlobalLibraries plugin="workflow-cps-global-lib@2.15">
+  <libraries>
+    <org.jenkinsci.plugins.workflow.libs.LibraryConfiguration>
+      <name>pipelines</name>
+      <retriever class="org.jenkinsci.plugins.workflow.libs.SCMSourceRetriever">
+        <scm class="jenkins.plugins.git.GitSCMSource" plugin="git@3.9.3">
+          <id>5dfef6af-3eae-42c7-86be-19e1a8861197</id>
+          <remote>https://github.com/rhappdev/shared-jenkins-pipelines.git</remote>
+          <credentialsId></credentialsId>
+          <traits>
+            <jenkins.plugins.git.traits.BranchDiscoveryTrait/>
+          </traits>
+        </scm>
+      </retriever>
+      <defaultVersion>master</defaultVersion>
+      <implicit>false</implicit>
+      <allowVersionOverride>true</allowVersionOverride>
+      <includeInChangesets>true</includeInChangesets>
+    </org.jenkinsci.plugins.workflow.libs.LibraryConfiguration>
+  </libraries>
+</org.jenkinsci.plugins.workflow.libs.GlobalLibraries>
