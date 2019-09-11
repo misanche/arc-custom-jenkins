@@ -3,7 +3,7 @@
   <configs class="sorted-set">
     <comparator class="org.jenkinsci.plugins.configfiles.GlobalConfigFiles$1"/>
     <org.jenkinsci.plugins.configfiles.maven.GlobalMavenSettingsConfig>
-      <id>maven</id>
+      <id>maven-settings</id>
       <name>Maven Settings</name>
       <comment>Maven Settings File</comment>
       <content>&lt;?xml version=&quot;1.0&quot;?&gt;
